@@ -1,3 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+h1 {
+  font-family: 'caviar_dreamsbold', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+h2 {
+  font-family: 'caviar_dreamsbold_italic', sans-serif;
+}
+
+/* Header */
 .clear {
   clear :both;
 }
@@ -29,12 +40,15 @@
 
 .links {
   padding-top:26px;
+  font-family: 'caviar_dreamsbold', sans-serif;
 }
 
 .links a {
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'caviar_dreamsbold_italic', sans-serif;
+  font-weight: bold;
 }
 
 header {
