@@ -1,0 +1,23 @@
+<header>
+  <div class="col-xs-3">
+    <%= link_to root_path, :class=> 'logo' do %>
+    <div class="circle">
+      <br />
+        You Know
+      <br />
+        you need
+      <br />
+        to code
+    </div>
+    <% end %>
+  </div>
+  <div class="col-xs-4 hidden-xs slogan">
+    Splirting out unsolicited advice about entrepreneurshio since 2014
+  </div>
+  <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
+    <!-- Button trigger modal -->
+    <%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
+    &nbsp;&nbsp;
+    <%= link_to "About", about_path %>
+  </div>
+</header>
