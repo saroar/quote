@@ -8,6 +8,14 @@ class QuotesController < ApplicationController
   end
 
   def create
+    Quote.create(quote_params)
+    redircet_to root_path
+  end
 
+
+  private
+
+  def quote_params
+    params.require(:quote).permit(:saying, :author)
   end
 end
